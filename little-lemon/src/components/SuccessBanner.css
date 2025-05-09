@@ -1,0 +1,26 @@
+.success-banner {
+  position: fixed;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #b2dfb2;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    top: 40px;
+  }
+  to {
+    opacity: 1;
+    top: 70px;
+  }
+}
